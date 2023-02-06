@@ -13,7 +13,7 @@ if bit=='64bit':
     os.system('xdg-open https://facebook.com/groups/412423917720633//')
     time.sleep(0.05)
     import trt1
-elif bit=='32bit':
+
     import trt32
 else:
     print(f'{green}[×] Sorry System Not Support{white}')
