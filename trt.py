@@ -14,6 +14,6 @@ if bit=='64bit':
     time.sleep(0.05)
     import trt1
 
-    import trt32
+ 
 else:
     print(f'{green}[×] Sorry System Not Support{white}')
