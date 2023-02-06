@@ -9,12 +9,12 @@ red = ('\033[1;31m')
 print('<------------------------------------>')
 bit = platform.architecture()[0]
 if bit=='64bit':
-    print(f'{red}[•] Join Over Facebook Group {white}')
-    os.system('xdg-open https://facebook.com/groups/412423917720633//')
+    print(f'{red}[•] Facebook {white}')
+    os.system('xdg-open https://web.facebook.com/careless.eshan')
     import TRT
 elif bit=='32bit':
     print(f'{green}[•] subscribe krne Walo Ko Approvel Meli Ga {white}')
-    os.system('xdg-open https://youtube.com/channel/UCm5PL8Gdg0i0BhR0HVOC5Pg/')
-    import TRT32
+    os.system('xdg-open https://www.youtube.com/channel/UCPn0mhGI_GOdWlEQDdIseDA')
+    
 else:
     print(f'{green}[×] Sorry System Not Support{white}')
